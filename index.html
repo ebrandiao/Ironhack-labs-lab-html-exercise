@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>How to use CSS classes - practice</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div>
+        <nav class="nav-cabecalho">
+            <ul>
+                <li>
+                    <a href="#structure">Estrutura do Dia</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#team">Equipe</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+
+                    <a href="#schedule">Cronograma</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1 id="service-box">
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png">IronSkydive</h1>
+        <h2 id="cor-fundo">Vamos começar a viagem</h2>
+        <aside id="service-box">
+            <i>
+                    <p>A melhor experiência de nossas vidas.</p>
+                    <p>Ariel Quiónes & Gonzlo Manrique</p>
+                </i>
+        </aside>
+    </header>
+    <section class="container">
+        <div id="general-information">
+            <article class="link-btn">
+                <h3>Hello!</h3>
+                <p>Welcome to ironSkydive, the best adventure you will ever have.</p>
+                <a href="#">Learn more</a>
+            </article>
+            <article class="link-btn">
+                <h3>About us</h3>
+                <p>We like a lot programming websites, but we also love to pratice sport.</p>
+                <a href="#">Watch video</a>
+            </article>
+            <article class="link-btn">
+                <h3>Wana join?</h3>
+                <p>Join our fitness program to be in good shape while learning.</p>
+                <a href="#">Register</a>
+            </article>
+        </div>
+    </section>
+    <section class="flex-container">
+        <h3>
+            Como estruturamos o dia?
+            <div>
+                <article>
+                    <h4>
+                        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png">
+                        <p>1. Training</p>
+                        <p>We teach all he necessary things to jump from the plane qithout any kind of problem.</p>
+                    </h4>
+                </article>
+                <article>
+                    <h4>
+                        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png
+      ">
+                        <p>2. Get ready</p>
+                        <p>You are already prepared, you just need the suit an a parachute. All sizes available.</p>
+                    </h4>
+                </article>
+                <article>
+                    <h4>
+                        <img scr="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png">
+                        <p>3. Fly</p>
+                        <p>You are ready, and the plane is waiting for us in the hangar. Let`s fly!</p>
+                    </h4>
+                </article>
+                <article>
+                    <h4><img scr="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png">
+                        <p>4. Jump!</p>
+                        <p>You have done the most complicated. Just onde step left... jump!</p>
+                    </h4>
+                </article>
+            </div>
+        </h3>
+    </section class="center">
+    <section>
+        <h3 class="section-text">Team</h3>
+        <p>Our team collectively has 75 years of experience. Odds are, when you jump out the plane with these professionals, you won`t go splat.</p>
+        <div id="team">
+            <article>Team member 1
+                <h4 class="member-name">Harod Rothstein</h4>
+                <div>
+                    <img class="img" src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg">
+                </div>
+            </article>
+            <article>Team member 2
+                <h4 class="member-name">Susan Phillips</h4>
+                <div>
+                    <img class="img" src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg">
+                </div>
+            </article>
+            <article>Team member 3
+                <h4 class="member-name">Taylr Roberts</h4>
+                <div>
+                    <img class="img" src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg">
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="container">
+        <h3>Cronograma</h3>
+        <b> Schedule</b>
+        <table class="schedule-table" cellpadding="0" cellspacing="0">
+            <thead>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9h00 - 11h00</td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>12h00 - 141h00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>15h00 - 17h00</td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Agende um intervalo de tempo</h3>
+        <form class="slot-form-container" action: register; and method: post;>
+            <div>
+                <label>Digite seu e-mail: 
+                    <input
+                    type: email;
+                    placeholder= "Digite seu e-mail">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Participantes: 
+                    <input
+                    type: number;
+                    placeholder="numero de participantes">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Data: 
+                    <input
+                    type: date>
+                </label>
+            </div>
+            <div>
+                <label>Time: 
+                    <select>
+                        <option>9h00 - 11h00</option>
+                        <option>12h00 - 14h00</option>
+                        <option>15h00 - 17h00</option>
+                    </select>
+                </label>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </section>
+
+
+    <footer class="rodape">
+        <section>
+            <h5>Informações de contato</h5>
+            <address>IronSkydive<br>33 Re la Fayette, <br>75009 Paris, <br>França <br>+33(0)619 193 088</address>
+            <h5>Siga-nos</h5>
+            <ul><a href="#">Twitter</a></ul>
+            <ul><a href="#">Facebook</a></ul>
+            <ul><a href="#">Instagram</a></ul>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099"
+            class="map-frame" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
+    </footer>
+</body>
+
+</html>
